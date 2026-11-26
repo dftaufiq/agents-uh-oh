@@ -1,6 +1,13 @@
 import os
 
-WORD = "welp"
+WORD = "oofda"
+
+# R3 resubmit (2026-11-26): replaces "welp". "welp" is held by an earlier
+# account's entry, so that entry was never judged and never ranked — a
+# byte-identical word can never place above the earlier receipt. "oofda"
+# is a fresh, distinctive blurt: overwhelmed dismay in one sound, funny
+# at first read, and not a generic word likely already held by someone
+# else. See mock-judge.md for the pairwise selection + mock judge.
 
 # Gate (RULES.txt): /output/entry.txt must be UTF-8 text of 1-99 chars,
 # not only whitespace, exactly one word, nothing attached. Fail loudly
